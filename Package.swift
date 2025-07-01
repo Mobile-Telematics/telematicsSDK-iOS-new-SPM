@@ -3,7 +3,7 @@
 
 import PackageDescription
 
-let arc_name: String = "TelematicsSDK-7.0.0.zip"
+let arc_name: String = "TelematicsSDK-7.0.1.zip"
 
 let package = Package(
     name: "TelematicsSDK",
@@ -20,7 +20,7 @@ let package = Package(
         .binaryTarget(
                     name: "TelematicsSDK",
                     url: "https://s3.us-east-2.amazonaws.com/ios.telematics.sdk.production/Releases/\(arc_name)",
-                    checksum: "06bf2efbe100cd17e3b21c18e8f79be114c7670136e9327f54998fa1a92874d1"
+                    checksum: "dd23fef4629a617ac76811e8c35195cab983bb49d24a6241d700ad84deac5861"
         )
     ]
 )
